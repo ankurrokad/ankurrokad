@@ -36,7 +36,7 @@ Multi-tenant telehealth platform used by North American clinics.
 
 * Production uptime since mid-2024
 
-  🌐 [[https://sparrowhealth.ca](https://sparrowhealth.ca)](https://sparrowhealth.ca]%28https://sparrowhealth.ca%29)
+  🌐 [https://sparrowhealth.ca](https://sparrowhealth.ca)
 
 ---
 
@@ -52,8 +52,8 @@ Large-scale telehealth SaaS serving global markets.
 
 * Multi-storage provider module (S3, Azure, MinIO)
 
-  🌐 [[https://omnivatelehealth.com](https://omnivatelehealth.com)](https://omnivatelehealth.com]%28https://omnivatelehealth.com%29)
-
+  🌐 [https://omnivatelehealth.com](https://omnivatelehealth.com)
+  
 ---
 
 ### **📌 Pilleo**
@@ -66,7 +66,7 @@ A healthcare automation & data-sync tool.
 
 * Integrated with Python/ML internal systems
 
-  🌐 [[https://pilleo.ca](https://pilleo.ca)](https://pilleo.ca]%28https://pilleo.ca%29)
+  🌐 [https://pilleo.ca](https://pilleo.ca)
 
 ---
 
@@ -80,7 +80,7 @@ AI-powered financial data analysis platform.
 
 * Clean UX for complex investment insights
 
-  🌐 [[https://shipra.ca](https://shipra.ca)](https://shipra.ca]%28https://shipra.ca%29)
+  🌐 [https://shipra.ca](https://shipra.ca)
 
 ---
 
@@ -90,25 +90,25 @@ AI-powered financial data analysis platform.
 
 Scalable OCR + data-extraction pipeline (500+ docs per test cycle, 200+ parallel requests).
 
-→ [[https://github.com/ankurrokad/document-classifier](https://github.com/ankurrokad/document-classifier)](https://github.com/ankurrokad/document-classifier]%28https://github.com/ankurrokad/document-classifier%29)
+→ [https://github.com/ankurrokad/document-classifier](https://github.com/ankurrokad/document-classifier)
 
 ### **Distributed Job Runner**
 
 Workflow orchestration engine with queues, retries, steps, and state.
 
-→ [[https://github.com/ankurrokad/distributed-job-runner](https://github.com/ankurrokad/distributed-job-runner)](https://github.com/ankurrokad/distributed-job-runner]%28https://github.com/ankurrokad/distributed-job-runner%29)
+→ [https://github.com/ankurrokad/distributed-job-runner](https://github.com/ankurrokad/distributed-job-runner)
 
 ### **i18n Translator CLI**
 
 Translates JSON files via Groq. Saves hours.
 
-→ [[https://github.com/ankurrokad/i18n-translator](https://github.com/ankurrokad/i18n-translator)](https://github.com/ankurrokad/i18n-translator]%28https://github.com/ankurrokad/i18n-translator%29)
+→ [https://github.com/ankurrokad/i18n-translator](https://github.com/ankurrokad/i18n-translator)
 
 ### **Handlebar Parser**
 
 Template builder used internally by multiple teams.
 
-→ [[https://handlebar-parser.vercel.app/](https://handlebar-parser.vercel.app/)](https://handlebar-parser.vercel.app/]%28https://handlebar-parser.vercel.app/%29)
+→ [https://handlebar-parser.vercel.app/](https://handlebar-parser.vercel.app/)
 
 ---
 
