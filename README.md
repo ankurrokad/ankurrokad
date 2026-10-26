@@ -1,70 +1,92 @@
 # 👋 Hey, I’m Ankur
 
-**Full-stack engineer who breaks things only to rebuild them better.**
+**Senior software engineer who leads teams, ships production systems, and still loves writing the code.**
 
-I build scalable systems, ship real products, and keep the vibes clean ✨.
+6+ years across backend systems, technical leadership, and healthcare / fintech compliance ✨.
+
+📍 Burlington, Ontario
 
 ---
 
 ## ⚡ What I Do
 
-I enjoy turning messy ideas into **production-grade systems** — the kind that quietly run at 3AM while everyone is asleep.
+I turn messy ideas into **production-grade systems** — the kind that quietly run at 3AM while everyone is asleep.
 
-* TypeScript everywhere (frontend, backend, CLI tools)
+* TypeScript everywhere (Node.js, NestJS, React, Next.js, CLI tools)
 
-* Distributed systems, queues, workflow engines
+* Data & analytics pipelines (MongoDB rollups, idempotent processing, BigQuery)
 
-* Telehealth & FinTech product engineering
+* Distributed systems, queues, workflow engines (BullMQ, Redis)
 
-* DevOps when needed (K8s, Redis, Postgres, Mongo, MinIO)
+* Healthcare & FinTech product engineering (GDPR, PHIPA, PIPEDA, RBAC with CASL)
 
-* Small teams → fast shipping → fewer meetings → better products
+* DevOps when needed (Kubernetes, Docker, AWS, Cloudflare, MongoDB, Postgres, MinIO)
+
+* AI-assisted development with Claude Code — shipping at the scope that used to take a full team
+
+---
+
+## 🚀 Currently
+
+### **Software Engineer III @ Rocket.new** (Feb 2026 – Present)
+
+Deliberately back to hands-on IC work, building analytics infrastructure directly.
+
+* MongoDB-based analytics pipelines for LLM token usage tracking
+
+* Two-tier rollup system (daily + monthly aggregation layers)
+
+* Idempotent upserts and watermarking for reliable incremental processing
+
+* Planning an export pipeline to BigQuery for downstream analytics
 
 ---
 
 ## 🏗️ Products I’ve Built (and Shipped)
 
-### **📌 Sparrow Health**
+### **📌 Omniva Telehealth**
 
-Multi-tenant telehealth platform used by North American clinics.
+Telehealth SaaS platform. I led a cross-functional team of 12 developers (Feb – Nov 2025).
 
-* Built end-to-end backend (TS + NestJS)
+* Architected the JavaScript → TypeScript monorepo migration
 
-* Multi-tenant architecture, scheduling system, family workflows
+* Moved production to Kubernetes for near-zero downtime
 
-* Integrated Stripe, Twilio, Postmark
+* Multi-gateway payments (Stripe, Authorize.net, RazorPay, Paystack)
 
-* Production uptime since mid-2024
+* Multi-storage provider module via factory pattern (S3, Azure Blob, MinIO)
 
-  🌐 [https://sparrowhealth.ca](https://sparrowhealth.ca)
+* Cut MongoDB cloud spend by ~50% (M80 → M50) through performance tuning
+
+* CASL-based RBAC for multi-tenant users, GDPR-compliant data handling
+
+  🌐 [https://omnivatelehealth.com](https://omnivatelehealth.com)
 
 ---
 
-### **📌 Omniva Telehealth**
+### **📌 Sparrow Health** *(2022 – 2024)*
 
-Large-scale telehealth SaaS serving global markets.
+Multi-tenant telehealth platform built for North American clinics. Started as a co-op backend build (TypeScript + NestJS), then led development as team lead through 2024.
 
-* Led 12 devs, introduced TypeScript monorepo
+* Multi-tenant architecture, shift management with timezone support, family wallets
 
-* Migrated production to Kubernetes
+* Integrated Stripe, Twilio, Postmark
 
-* Multi-payment provider engine (Stripe, Razorpay, Authorize.net)
+* Platform ran autonomously after June 2024 with zero critical incidents
 
-* Multi-storage provider module (S3, Azure, MinIO)
+* PHIPA / PIPEDA compliance across all healthcare apps
 
-  🌐 [https://omnivatelehealth.com](https://omnivatelehealth.com)
-  
 ---
 
 ### **📌 Pilleo**
 
 A healthcare automation & data-sync tool.
 
-* Built entire front-end (Next.js + TS)
+* Intake workflow cut from 45 minutes to 8 minutes (5.6×)
 
-* Large UI + workflow heavy setup
+* Disability Tax Credit form processing down 80% via AI-driven automation
 
-* Integrated with Python/ML internal systems
+* Automated revenue reporting, saving >100k CAD annually
 
   🌐 [https://pilleo.ca](https://pilleo.ca)
 
@@ -74,9 +96,7 @@ A healthcare automation & data-sync tool.
 
 AI-powered financial data analysis platform.
 
-* Heavy D3.js visualizations
-
-* Large-scale data handling
+* Front-end built with Next.js App Router, ShadCN UI, and heavy D3.js visualizations
 
 * Clean UX for complex investment insights
 
@@ -88,27 +108,41 @@ AI-powered financial data analysis platform.
 
 ### **Document Classifier**
 
-Scalable OCR + data-extraction pipeline (500+ docs per test cycle, 200+ parallel requests).
+Horizontally scalable OCR + data-extraction platform (500+ docs per test cycle, 200+ parallel requests, no queue buildup). TypeScript, BullMQ, Redis, MongoDB, MinIO.
 
 → [https://github.com/ankurrokad/document-classifier](https://github.com/ankurrokad/document-classifier)
 
 ### **Distributed Job Runner**
 
-Workflow orchestration engine with queues, retries, steps, and state.
+Workflow orchestration engine with queues, retries, steps, and state. TypeScript, NestJS, Next.js, PostgreSQL, BullMQ, Redis.
 
 → [https://github.com/ankurrokad/distributed-job-runner](https://github.com/ankurrokad/distributed-job-runner)
 
 ### **i18n Translator CLI**
 
-Translates JSON files via Groq. Saves hours.
+Translates your i18n JSON files to any language via Groq with a single command. Saves hours.
 
 → [https://github.com/ankurrokad/i18n-translator](https://github.com/ankurrokad/i18n-translator)
 
 ### **Handlebar Parser**
 
-Template builder used internally by multiple teams.
+Realtime Handlebars template builder that streamlines UI component creation.
 
 → [https://handlebar-parser.vercel.app/](https://handlebar-parser.vercel.app/)
+
+---
+
+## 🧰 Tech I Reach For
+
+**Languages:** TypeScript · JavaScript · SQL · Python (prototypes)
+
+**Backend:** Node.js · NestJS · Express · GraphQL · REST
+
+**Frontend:** React · Next.js · ShadCN UI · D3.js
+
+**Data & Infra:** MongoDB · PostgreSQL · SQL Server · BigQuery · Redis · BullMQ · MinIO · Kubernetes · Docker · AWS · Vercel · Cloudflare
+
+**Integrations:** Stripe · Authorize.net · RazorPay · Paystack · Twilio · Postmark
 
 ---
 
@@ -116,13 +150,13 @@ Template builder used internally by multiple teams.
 
 Roles where I get **ownership**, not tickets.
 
-Founding Engineer / Senior / Lead roles in:
+Senior / Lead / Founding Engineer roles in:
+
+* Data & analytics infrastructure
 
 * AI apps
 
-* Large-scale systems
-
-* Workflow engines
+* Large-scale distributed systems and workflow engines
 
 * Healthcare or FinTech
 
@@ -135,4 +169,3 @@ Portfolio → [https://ankurrokad.github.io/](https://ankurrokad.github.io)
 LinkedIn → [https://www.linkedin.com/in/ankurrokad/](https://www.linkedin.com/in/ankurrokad/)
 
 Email → [ankurrokad@gmail.com](mailto:ankurrokad@gmail.com)
-
